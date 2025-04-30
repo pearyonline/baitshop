@@ -20,6 +20,7 @@ body {
 }
 
 .cards {
+    display: flex;
     max-width: 1100px;
     justify-self: center;
     background-color: rgb(142, 197, 245);
@@ -27,11 +28,12 @@ body {
     padding: 50px;
 }
 
-.Fishcam{
+#fishcam {
     justify-self: center;
+    width: 100%;
 }
 
-.daybait{
+.daybait {
     justify-self: center;
 }
 
@@ -52,12 +54,21 @@ h3 {
     justify-self: center;
 }
 
-.dennis{
-justify-self: center;}
+.dennis {
+    justify-self: center;
+}
 
 @media (min-width: 500px) {
     nav {
         display: none;
+    }
+
+    #fishcam {
+        display: none;
+    }
+
+    .fishcammobile {
+        text-align: center;
     }
 
     .mobile {
@@ -65,9 +76,28 @@ justify-self: center;}
         padding: 5px 5px 5px 5px;
     }
 
+    .dawgofa {
+        display: none;
+    }
+
 }
 
 @media (min-width: 768px) {
+    .fishcammobile {
+        font-size: 0px;
+    }
+
+    .dawgofa {
+        display: flex;
+        justify-content: center;
+    }
+
+    #fishcam {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
     nav {
         display: contents;
         overflow: hidden;
@@ -85,6 +115,7 @@ justify-self: center;}
             text-decoration: underline;
         }
     }
+
     .mobile {
         display: none;
     }
