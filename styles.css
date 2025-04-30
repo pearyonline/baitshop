@@ -109,14 +109,11 @@ h3 {
         font-size: 25px;
         background-color: rgb(116, 153, 255);
         color: rgba(32, 32, 32, 0.199);
-
-        a:hover {
-            color: rgb(255, 255, 255);
-            text-decoration: underline;
-        }
     }
+
 
     .mobile {
         display: none;
     }
 }
+
