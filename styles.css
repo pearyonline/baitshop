@@ -2,21 +2,6 @@ body {
     background-color: rgb(61, 118, 204);
 }
 
-nav {
-    display: contents;
-    padding: 5px 15px 10px 0px;
-    position: sticky;
-    top: 0;
-    text-align: center;
-    font-size: 25px;
-    background-color: rgb(116, 153, 255);
-    color: rgba(32, 32, 32, 0.199);
-
-    a:hover {
-        color: rgb(255, 255, 255);
-        text-decoration: underline;
-    }
-}
 
 .intro {
     text-align: center;
@@ -24,17 +9,51 @@ nav {
     color: black;
 }
 
-h3{
+
+.contact {
+    background-color: rgb(134, 193, 197);
+    justify-self: center;
+    min-width: 600px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 20%;
+}
+
+.cards {
+    max-width: 1100px;
+    justify-self: center;
+    background-color: rgb(142, 197, 245);
+    border-radius: 2%;
+    padding: 50px;
+}
+
+.Fishcam{
+    justify-self: center;
+}
+
+.daybait{
+    justify-self: center;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 45px;
+}
+
+h3 {
     text-align: center;
     padding-top: 14px;
     color: black;
 }
 
-#mypictures{
+#mypictures {
     max-width: 500px;
     max-height: 500px;
     justify-self: center;
 }
+
+.dennis{
+justify-self: center;}
 
 @media (min-width: 500px) {
     nav {
@@ -45,14 +64,17 @@ h3{
         display: contents;
         padding: 5px 5px 5px 5px;
     }
+
 }
 
 @media (min-width: 768px) {
     nav {
         display: contents;
-        padding: 5px 15px 10px 0px;
+        overflow: hidden;
         position: sticky;
         top: 0;
+        overflow: hidden;
+        background-color: #333;
         text-align: center;
         font-size: 25px;
         background-color: rgb(116, 153, 255);
@@ -63,7 +85,7 @@ h3{
             text-decoration: underline;
         }
     }
-    .mobile{
-        display:none;
+    .mobile {
+        display: none;
     }
 }
